@@ -3,11 +3,8 @@ class Main {
 // for, while, do while
 
 int i = 0;
-  while (true) { 
+  while (i < 32) { 
     System.out.println(i);
-    if(i > 31){
-    break;
-      }
     i++;
     }
     
